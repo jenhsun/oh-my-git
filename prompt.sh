@@ -17,14 +17,14 @@ if [ -n "${BASH_VERSION}" ]; then
     : ${omg_has_cached_modifications_symbol:=''}
     : ${omg_ready_to_commit_symbol:=''}
     : ${omg_is_on_a_tag_symbol:=''}
-    : ${omg_needs_to_merge_symbol:=''}
+    : ${omg_needs_to_merge_symbol:=''}
     : ${omg_detached_symbol:=''}
     : ${omg_can_fast_forward_symbol:=''}
     : ${omg_has_diverged_symbol:=''}
     : ${omg_not_tracked_branch_symbol:=''}
     : ${omg_rebase_tracking_branch_symbol:=''}
     : ${omg_merge_tracking_branch_symbol:=''}
-    : ${omg_should_push_symbol:=''}
+    : ${omg_should_push_symbol:=''}
     : ${omg_has_stashes_symbol:=''}
 
     : ${omg_default_color_on:='\[\033[1;37m\]'}
